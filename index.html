@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset ='utf-8'>
-        <title>Fonte</title>
+<head>
+  <title>Calculadora</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <div class="buttons">
+      <!-- Coloque os botões da calculadora aqui -->
+      <button class="button" data-value="7">7</button>
+    <button class="button" data-value="8">8</button>
+    <button class="button" data-value="9">9</button>
+    <button class="button" data-value="/">/</button>
 
-    </head>
-    <body id="body">
-       
-        <h2 id="texto">Calculadora</h2>
-        <p id="ConteudoCor">Calcular</p>
-        <p id="soma">
-            <p id="subtração">
-                <p id="divisão">
-                    <p id="adição">
-        <form>
-            <button type="button" onclick="somando()">soma</button>
-            <button type="button" onclick="subtração()">subtração</button>
-           <button type="button" onclick="adicionando()">adição</button>
-           <button type="button" onclick="dividindo()">divisão</button>
-        </form>
+    <button class="button" data-value="4">4</button>
+    <button class="button" data-value="5">5</button>
+    <button class="button" data-value="6">6</button>
+    <button class="button" data-value="*">*</button>
 
-    
-         <button type="button" onclick="Colometria()">Click</button>
-        
-    
-        <script src="script.js"></script>
-    </body>
+    <button class="button" data-value="1">1</button>
+    <button class="button" data-value="2">2</button>
+    <button class="button" data-value="3">3</button>
+    <button class="button" data-value="-">-</button>
+
+    <button class="button" data-value="0">0</button>
+    <button class="button" data-value=".">.</button>
+    <button class="button" data-value="C">C</button>
+    <button class="button" data-value="+">+</button>
+
+    <button class="button" data-value="=">=</button>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
